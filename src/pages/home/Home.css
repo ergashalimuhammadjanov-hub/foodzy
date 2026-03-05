@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.body {
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.foodzy {
+    display: flex;
+    align-items: center;
+}
+
+.foodzy h3 {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.foodzy p {
+    color: rgba(34, 31, 31, 1);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.inputs {
+    position: relative;
+}
+
+.inputs input {
+    width: 550px;
+    height: 45px;
+    border: 1px solid rgba(100, 180, 150, 1);
+    background: rgba(255, 255, 255, 1);
+    outline: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.poisks {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(245, 62, 50, 1);
+    width: 45px;
+    height: 45px;
+    top: 0px;
+    right: 0;
+    border-radius: 0px 5px 5px 0px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.poisks img {
+    width: 30px;
+}
+
+.account h3 {
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hero {
+    background-image: url("/imgs/headerimg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero h3 {
+    font-weight: 400;
+    font-size: 36px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-weight: 900;
+    font-size: 55px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    width: 586px;
+    letter-spacing: 0.48px;
+    line-height: 68px;
+    margin-bottom: 10px;
+
+}
+
+.hero p {
+    font-weight: 400;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 20px;
+
+}
+
+.hero button {
+    background: rgba(205, 122, 29, 1);
+    color: white;
+    border: none;
+    width: 183px;
+    height: 50px;
+    border-radius: 100px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.hero button img {
+    background: white;
+    padding: 14px;
+    border-radius: 100%;
+    margin-left: -20px;
+}
+
+.hero_txt {
+    margin-left: 100px;
+    padding: 100px 0px;
+}
+
+.box {
+    width: 306px;
+    height: 477px;
+    border: 1px solid rgba(233, 233, 233, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.box:hover {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.29);
+    transform: translateY(-10px);
+}
+
+.box span {
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(119, 119, 119, 1);
+    margin-top: 5px;
+}
+
+.box .raiting {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.products .box p {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(43, 43, 45, 1);
+    width: 246px;
+    text-align: center;
+    margin-bottom: 20px;
+    /* color: red; */
+}
+
+.box .price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box .now {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(245, 62, 50, 1);
+}
+
+.box .old {
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(122, 122, 122, 1);
+    text-decoration: line-through;
+}
+
+.products h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: rgba(43, 43, 45, 1);
+}
+
+.products p {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(122, 122, 122, 1);
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.fruits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.fruits button {
+    width: 306px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border: 1px solid rgba(233, 233, 233, 1);
+    background: rgba(247, 247, 248, 1);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(43, 43, 45, 1);
+    cursor: pointer;
+}
+
+.fruits button:hover {
+    color: rgba(245, 62, 50, 1);
+}
+
+.product_umumiy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 90px;
+    height: 1000px;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.fruit_banner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner {
+    background-image: url(/imgs/bannerimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.banner h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: -90px;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.banner h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: rgba(247, 232, 170, 1);
+    margin-left: 20px;
+    margin-left: 20px;
+
+}
+
+.banner span {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.banner button {
+    width: 104px;
+    height: 40px;
+    border: 1px solid rgba(245, 62, 50, 1);
+    background: rgba(245, 62, 50, 1);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+.peoples h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: rgba(43, 43, 45, 1);
+}
+
+.peoples p {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(122, 122, 122, 1);
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+.pbox {
+    background-image: url(/imgs/9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.pbox h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(122, 122, 122, 1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pbox h2 {
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(43, 43, 45, 1);
+    margin-bottom: 10px;
+}
+
+.pbox p {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(122, 122, 122, 1);
+    width: 261px;
+    text-align: center;
+}
+
+.pbox img {
+    margin-top: -50px;
+}
+
+.pcards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer {
+    background: rgba(247, 247, 248, 1);
+    margin-top: 40px;
+}
+
+.loc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.exam {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.ft1 p {
+    color: rgba(122, 122, 122, 1);
+    font-weight: 400;
+    font-size: 14px;
+    width: 370px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 30px;
+}
+
+footer h2 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 1);
+}
+
+footer ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(119, 119, 119, 1);
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    margin-top: 10px;
+}
+
+footer ul li a:hover {
+    opacity: 0.8;
+}
+
+.subscribe input {
+    width: 316px;
+    height: 30px;
+    border: 1px solid rgba(233, 233, 233, 1);
+    border: 1px solid rgba(233, 233, 233, 1);
+    outline: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.subscribe .input {
+    position: relative;
+    width: 316px;
+}
+
+.subscribe .tg {
+    position: absolute;
+    right: 7px;
+    top: 4px;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.oxiri{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+    font-weight: 400;
+    font-size: 14px;
+}
